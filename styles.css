@@ -1,89 +1,92 @@
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html,
 body {
-   font-family: "Ubuntu", sans-serif;
-   scroll-behavior: smooth;
+	font-family: "Ubuntu", sans-serif;
+	scroll-behavior: smooth;
 }
 
 a {
-   text-decoration: none;
-   color: whitesmoke;
+	text-decoration: none;
+	color: whitesmoke;
 }
 
 nav {
-   position: sticky;
-   top: 0;
+	position: sticky;
+	top: 0;
 	left: 0;
 	border-bottom: 2px solid whitesmoke;
 }
 
 nav ul {
-   list-style-type: none;
-   overflow: hidden;
-   background-color: #111;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #111;
 }
 
 nav ul li {
-   float: right;
+	float: right;
 }
 
 nav ul li a {
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   transition: 0.2s ease-in-out;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
 }
 
 nav ul li a:hover {
-   background-color: #999;
+	background-color: #999;
 }
 
 #main {
-   margin: 0;
-   top: ;
-   padding: 5px 0;
+	margin: 0;
+	padding: 5px 0;
 }
 
 #about {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   margin: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 0;
 }
 
 #tribute-info {
-   max-width: 550px;
-   line-height: 22px;
+	max-width: 550px;
+	line-height: 22px;
 }
 
 #title {
-   margin: 20px auto;
-   padding: 10px;
-   font-size: 30px;
-   background-color: #000;
-   color: white;
+	margin: 20px auto;
+	padding: 10px;
+	font-size: 30px;
+	background-color: #000;
+	color: white;
 }
 
 #tribute-info p {
-   padding: 0 10px;
+	padding: 0 10px;
+}
+
+#tribute-link {
+	color: purple;
 }
 
 #img-div {
-   padding: 20px;
+	padding: 20px;
 }
 
 #image {
-   display: block;
-   width: 150px;
-   max-width: 100%;
-   cursor: none;
+	display: block;
+	width: 150px;
+	max-width: 100%;
+	cursor: none;
 }
 
 #img-caption {
@@ -94,68 +97,68 @@ nav ul li a:hover {
 }
 
 .ytSection {
-   max-width: 100%;
-   margin: 20px 0;
-   padding: 10px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #999;
-   border-top: 2px solid #000;
-   border-bottom: 2px solid #000;
+	max-width: 100%;
+	margin: 20px 0;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #999;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
 }
 
 .ytSection p {
-   padding: 5px;
+	padding: 5px;
 }
 
 #popularVideos {
-   max-width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .popularVideo {
-   margin: 10px;
-   /* max-height: 100%;
+	margin: 10px;
+	/* max-height: 100%;
 	max-width: 100%; */
 }
 
 .heading2 {
-   width: 100%;
-   background-color: #111;
-   color: #fff;
-   text-align: center;
-   padding: 10px;
+	width: 100%;
+	background-color: #111;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
 }
 
 footer {
 	margin-bottom: 20px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: #111;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #111;
 }
 
 #socialConnect {
-   font-size: 18px;
-   text-align: center;
+	font-size: 18px;
+	text-align: center;
 }
 
 .socialButton {
-   display: inline-block;
-   position: relative;
-   padding: 10px;
-   transition: 0.2s ease-in-out;
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	transition: 0.2s ease-in-out;
 }
 
 .socialButton:hover {
-   background-color: #999;
+	background-color: #999;
 }
 
 .greet {
-   margin-left: 20px;
-   color: whitesmoke;
-   text-align: center;
+	margin-left: 20px;
+	color: whitesmoke;
+	text-align: center;
 }
