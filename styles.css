@@ -113,16 +113,15 @@ nav ul li a:hover {
 }
 
 #popularVideos {
-	max-width: 100%;
+	width: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .popularVideo {
-	margin: 10px;
-	/* max-height: 100%;
-	max-width: 100%; */
+	/* max-width: 560px; */
+	margin: 20px;
 }
 
 .heading2 {
@@ -161,4 +160,14 @@ footer {
 	margin-left: 20px;
 	color: whitesmoke;
 	text-align: center;
+}
+
+iframe {
+	width: 560px;
+}
+
+@media screen and (max-width: 559px) {
+	iframe {
+		width: 400px;
+	}
 }
